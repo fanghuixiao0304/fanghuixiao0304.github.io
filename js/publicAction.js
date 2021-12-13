@@ -7,9 +7,6 @@ function jumpPage(id) {
         case "publicationsBtn":
             pageUrl = "publications.html";
             break;
-        case "teachingBtn":
-            pageUrl = "teaching.html";
-            break;
         case "cvBtn":
             pageUrl = "cv.html";
             break;

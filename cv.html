@@ -15,8 +15,6 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,700;1,700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Rozha+One&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap" rel="stylesheet">
     <script type="text/javascript" src="js/material.min.js"></script>
     <script type="text/javascript" src="js/jquery-3.6.0.min.js"></script>
     <script type="text/javascript" src="js/publicAction.js"></script>
@@ -56,63 +54,21 @@
                 <button id='publicationsBtn' class="mButton mdl-button mdl-js-button mdl-js-ripple-effect" onClick="jumpPage(this.id);">
                     Publications
                 </button>
-                <button id='teachingBtn' class="mButton mdl-button mdl-js-button mdl-js-ripple-effect" onClick="jumpPage(this.id);">
-                    Teaching & Services
-                </button>
                 <button id='cvBtn' class="mButton btnAct mdl-button mdl-js-button mdl-js-ripple-effect" onClick="jumpPage(this.id);">
-                    CV & Documents
+                    CV
                 </button>
             </div>
         </div>
         <div id='mbody'>
-            <div class="cvHeadImg"></div>
             <div class="cvTitleOutBx">
                 <div class="cvTitleBx">
                     <div class="lineBx"></div>
-                    <div class="cvTitle">Documents</div>
+                    <div class="cvTitle">Curriculum Vitae</div>
                     <div class="lineBx"></div>
                 </div>
             </div>
             <div class="cvContentBx">
-                <div class="cvBx">
-                    <div class="cvImgBx">
-                        <img id="researchPdf" onClick="popupLink(this.id);" class="cvImg" src="css/images/cv_1.png"/>
-                    </div>
-                    <div class="cvTxt">
-                        Research<br>Statement
-                    </div>
-                </div>
-                <div class="cvBx">
-                    <div class="cvImgBx">
-                        <img id="teachingPdf" onClick="popupLink(this.id);" class="cvImg" src="css/images/cv_2.png"/>
-                    </div>
-                    <div class="cvTxt">
-                        Teaching<br>Statement
-                    </div>
-                </div>
-                <div class="cvBx">
-                    <div class="cvImgBx">
-                        <img id="cvPdf" onClick="popupLink(this.id);" class="cvImg" src="css/images/cv_3.png"/>
-                    </div>
-                    <div class="cvTxt">
-                        CV
-                    </div>
-                </div>
-            </div>
-            <div class='mottoBx'>
-                <div class="mottoBxInner">
-                    <div class='mickyBx'>
-                        <img class='photo' src="css/images/micky2.png"/>
-                    </div>
-                    <div class="mottoTxtBx">
-                        <div class='mottoTxt'>
-                            "Laughter is timeless,<br>imagination has no age,<br>dreams are forever."
-                        </div>
-                        <div class='mottoName'>
-                            ~ Walter Elias Disney
-                        </div>
-                    </div>
-                </div>
+                <iframe src="pdf/cv.pdf" width="100%" height="90%"></iframe>
             </div>
         </div>
         <div id='mfoot'>
